@@ -1,0 +1,194 @@
+@media only screen and (min-width: 320px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section {
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .background {
+        background-image: url(./../assents/background.jpg);
+    }
+
+    .conteudo {
+        border: 3px solid aliceblue;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    h1{
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #login {
+        margin-left: 30px;
+        color: white;
+        font-size: 20px;
+    }
+
+    #inputLogin {
+        margin-top: 10px;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 10px;
+        width: 200px;
+        padding-left: 15px;
+    }
+
+    #senha {
+        margin-left: 30px;
+        color: white;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    #inputSenha {
+        margin-top: 10px;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 10px;
+        width: 200px;
+        padding-left: 15px;
+    }
+
+    #btnEntrar {
+        border: 2px solid cornflowerblue;
+        border-radius: 20px;
+        padding: 10px;
+        width: 200px;
+        margin-top: 70px;
+        cursor: pointer;
+        background-color: cornflowerblue;
+        color: white;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 18px;
+    }
+
+    #btnEntrar:hover {
+        opacity: 0.8;
+    }
+
+    p {
+        margin-top: 10px;
+        margin-left: 11px;
+        font-size: 15px;
+        color: white;
+    }
+
+    span {
+        color: aquamarine;
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section {
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .background {
+        background-image: url(./../assents/background.jpg);
+    }
+
+    .conteudo {
+        border: 2px solid aliceblue;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    #login {
+        color: white;
+        font-size: 20px;
+    }
+
+    #inputLogin {
+        margin-top: 10px;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 10px;
+        width: 250px;
+        padding-left: 15px;
+    }
+
+    #senha {
+        color: white;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    #inputSenha {
+        margin-top: 10px;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 10px;
+        width: 250px;
+        padding-left: 15px;
+    }
+
+    #btnEntrar {
+        border: 2px solid cornflowerblue;
+        border-radius: 20px;
+        padding: 10px;
+        width: 250px;
+        margin-top: 70px;
+        cursor: pointer;
+        background-color: cornflowerblue;
+        color: white;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #btnEntrar:hover {
+        opacity: 0.8;
+    }
+
+    p {
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 15px;
+        color: white;
+    }
+
+    span {
+        color: aquamarine;
+        cursor: pointer;
+    }
+}
