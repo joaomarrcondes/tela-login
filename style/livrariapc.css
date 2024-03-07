@@ -1,0 +1,61 @@
+@media (min-width: 768px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.menu{
+    background-color:#07528b;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#imagem-senai{
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: 20px
+}
+
+#pesquisar{
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px 15px;
+}
+
+.fa-solid{
+    margin-top: 30px;
+    margin-left:30px;
+    font-size: 20px;
+}
+
+#conta{
+    margin-top: 31px;
+    margin-left: 10px;
+    color: white;
+}
+
+.categoria{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #07528b;
+}
+
+#link1, #link2, #link3, #link4, #link5, #link6, #link7, #link8, #link9, #link10{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #07528b;
+    padding: 20px;
+    font-size: 14px;
+}
+
+}
+
+
